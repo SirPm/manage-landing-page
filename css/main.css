@@ -1,0 +1,427 @@
+/********************************
+    General Styles
+********************************/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 4.5rem;
+    color: hsl(228, 39%, 23%);
+}
+
+h3 {
+    font-size: 3rem;
+    color: hsl(228, 39%, 23%);
+}
+
+h4 {
+    font-size: 1.7rem;
+    color: hsl(228, 39%, 23%);
+}
+
+h5 {
+    font-size: 1.5rem;
+    color: hsl(228, 39%, 23%);
+}
+
+a {
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+
+p {
+    font-size: 1.6rem;
+    color: hsl(227, 12%, 61%);
+}
+
+#ham {
+    display: none;
+}
+
+#ham div {
+    background-color: black;
+    width: 25px;
+    height: 2px;
+    margin: 5px;
+}
+
+#header-img-mobile {
+    display: none;
+}
+
+
+
+
+/********************************
+    Header Styles
+********************************/
+
+header {
+    margin-top: 5rem;
+}
+
+nav {
+    min-height: 10vh;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 50%; 
+}
+
+li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: hsl(233, 12%, 13%);
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: hsl(227, 12%, 61%);
+    transform: scale(40%);
+    border-left: 0.4rem solid hsl(12, 88%, 59%);
+    border-right: 0.4rem solid hsl(12, 88%, 59%);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 3.5rem;
+}
+
+.get-started-btn {
+    font-size: 1rem;
+    background-color: hsl(12, 88%, 59%);
+    border: 0.1rem solid hsl(12, 88%, 59%);
+    border-radius: 4rem;
+    padding: 1rem 3rem;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.get-started-btn:hover {
+    background-color: transparent;
+    border: 0.1rem solid hsl(12, 61%, 51%);
+    color: hsl(230, 3%, 62%);
+    cursor: pointer;
+}
+
+#header-img {
+    left: 72rem;
+    margin-top: -15rem;
+    z-index: -1;
+    float: right;
+}
+
+
+
+/********************************
+    First Section Styles
+********************************/
+
+#first-section {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: 0 auto;
+    clear: both;
+    transform: translate(0rem, -50rem);
+    overflow: hidden;
+}
+
+#texts {
+    width: 30%;
+    align-self: center;
+}
+
+#texts h2 {
+    width: 150%;
+}
+
+#texts > * {
+    margin-bottom: 4rem;
+}
+
+#illustrations img {
+    width: 90%;
+    margin-left: 13%;
+}
+
+
+
+/********************************
+    Second Section Styles
+********************************/
+
+.list-item {
+    display: flex;
+    margin-left: 30%;
+    flex-direction: column;
+    margin-bottom: 1.4rem;
+}
+
+.list-item p {
+    align-self: flex-end;
+    width: 85%;
+}
+
+.list-heading {
+    margin-bottom: 1rem; 
+    display: flex;
+}
+
+.list-heading h4 {
+    align-self: center;
+}
+
+.number-btn {
+    background-color: hsl(12, 88%, 59%);
+    color: hsl(0, 0%, 98%);
+    border: 0.1rem solid hsl(12, 88%, 59%);
+    border-radius: 3rem;
+    padding: 0.6rem 1.5rem;
+    margin-right: 2rem;
+    align-self: center;
+}
+
+#second-section {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: -30rem;
+}
+
+#text2 {
+    width: 70%;
+}
+
+#text2 p {
+    width: 70%;
+    margin-top: 1.9rem;
+}
+
+
+
+/********************************
+    Third Section Styles
+********************************/
+
+#third-section {
+    margin-top: 15rem;
+    position: relative;
+    margin-bottom: 10rem;
+    overflow: hidden;
+}
+
+#third-section h3 {
+    text-align: center;
+    margin-bottom: 10rem;
+}
+
+#third-section-img {
+    margin: 0 auto;
+    display: none;
+}
+
+#testimonials {
+    display: flex;
+    clear: both;
+}
+
+.testimonial {
+    background-color: hsl(0, 0%, 98%);
+    width: 32%;
+    margin-right: 1.5%;
+    margin-top: 1rem;
+    padding: 6rem; 
+
+}
+ .testimonial img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+} 
+
+.testimonial h5 {
+    text-align: center;
+    margin-bottom: 2.3rem;
+}
+
+.testimonial p {
+    text-align: center;
+}
+
+.testimonial:last-child {
+    margin-right: 1%;
+}
+
+.testimonial:first-child {
+    margin-left: 1%;
+}
+
+.third-section-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 10rem;
+}
+
+
+
+/********************************
+    Fourth Section Styles
+********************************/
+
+#fourth-section {
+    background-color: hsl(12, 88%, 59%);
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#text-4 {
+    color: hsl(0, 0%, 98%);
+    width: 25%;
+}
+
+#btn-4 {
+    color: hsl(12, 88%, 59%);
+    font-size: 1rem;
+    background-color: hsl(0, 0%, 98%);
+    border: 0.1rem solid hsl(0, 0%, 98%);
+    border-radius: 4rem;
+    padding: 1rem 3rem;
+    cursor: pointer;
+}
+
+#btn-4:hover {
+    background-color: hsl(233, 12%, 13%);
+    color: hsl(0, 2%, 72%);
+    border: 0.1rem solid hsl(0, 7%, 9%);
+    transition: all 0.3s ease;
+}
+
+
+
+/********************************
+    Footer Section Styles
+********************************/
+
+footer {
+    background: hsl(233, 12%, 13%);
+    display: flex;
+    justify-content: space-around;
+    height: 30vh;
+}
+
+#logo-and-social {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#socials {
+    display: flex;
+    justify-content: space-between;
+}
+
+#socials:hover {
+    cursor: pointer;
+    fill: hsl(12, 88%, 59%);
+}
+
+#left, #right {
+    height: 20vh;
+}
+
+#left li, #right li {
+    margin-bottom: 2rem;
+}
+
+#left li a, #right li a {
+    color: hsl(0, 0%, 98%);
+}
+
+#menu-links {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    justify-content: space-around;
+}
+
+#search-and-copyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+#search-and-copyright small {
+    font-size: 1.3rem;
+    color: hsl(230, 3%, 62%);
+    align-self: flex-end;
+}
+
+#inbox {
+    display: flex;
+}
+
+#input-footer {
+    font-size: 1rem;
+    border-radius: 3rem;
+    border: 0.1rem solid #ffffff;
+    padding: 1.4rem 2.5rem;
+    margin-right: 1rem;
+}
+
+#go {
+    font-size: 1rem;
+    background-color: hsl(12, 88%, 59%);
+    border: 0.1rem solid hsl(12, 88%, 59%);
+    border-radius: 2.5rem;
+    padding: 1.4rem 2rem;
+    color: #ffffff;
+    align-self: center;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+#go:hover {
+    background-color: hsl(225, 29%, 97%);
+    color: hsl(12, 88%, 59%);
+    border: 0.1rem solid hsl(0, 1%, 14%);
+}
+
+.attribution {
+    margin-top: -1px;
+    background-color: hsl(233, 12%, 13%);
+}
+
+.attribution h5 {
+    color: hsl(0, 2%, 72%);
+    width: fit-content;
+    margin: auto;
+}
+
+.attribution h5 a {
+    color: hsl(283, 92%, 46%);
+    font-size: 1.2rem;
+}
